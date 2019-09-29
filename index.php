@@ -29,7 +29,7 @@ require_once 'classes/Auth.class.php';
       <form class="ajax" method="post" action="./ajax.php">
           <input type="hidden" name="act" value="logout">
           <div class="form-actions">
-              <button class="btn btn-large btn-primary" type="submit">Выход</button>
+              <button class="btn btn-large btn-primary" type="submit">Вихід</button>
           </div>
       </form>
 
