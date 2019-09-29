@@ -38,20 +38,18 @@ require_once 'classes/Auth.class.php';
       <form class="form-signin ajax" method="post" action="./ajax.php">
         <div class="main-error alert alert-error hide"></div>
 
-        <h2 class="form-signin-heading">Вход/авторизация</h2>
-        <input name="username" type="text" class="input-block-level" placeholder="Имя пользователя" autofocus>
+        <h2 class="form-signin-heading">Авторизація</h2>
+        <input name="username" type="text" class="input-block-level" placeholder="Логін" autofocus>
         <input name="password" type="password" class="input-block-level" placeholder="Пароль">
         <label class="checkbox">
-          <input name="remember-me" type="checkbox" value="remember-me" checked> Запомнить меня.
+          <input name="remember-me" type="checkbox" value="remember-me" checked> Запам'ятати мене.
         </label>
         <input type="hidden" name="act" value="login">
-        <button class="btn btn-large btn-primary" type="submit">Войти</button>
-    
+        <button class="btn btn-large btn-primary" type="submit">Вхід</button>
         <div class="alert alert-info" style="margin-top:15px;">
-            <p>Нет аккаунта? <a href="/register.php"> Регистрация!</a>
+            <p>Нет аккаунта? <a href="/register.php"> Реєстрація!</a>
         </div>
       </form>
-
       <?php endif; ?>
 
     </div> <!-- /container -->
