@@ -47,7 +47,7 @@ require_once 'classes/Auth.class.php';
         <input type="hidden" name="act" value="login">
         <button class="btn btn-large btn-primary" type="submit">Вхід</button>
         <div class="alert alert-info" style="margin-top:15px;">
-            <p>Нет аккаунта? <a href="/register.php"> Реєстрація!</a>
+            <p>Немає акаунта? <a href="/register.php"> Реєстрація!</a>
         </div>
       </form>
       <?php endif; ?>
