@@ -24,12 +24,12 @@ require_once 'classes/Auth.class.php';
 
       <?php if (Auth\User::isAuthorized()): ?>
     
-      <h1>Добрий день!</h1>
+      <h1>Добрий день! Ласкаво просимо:)</h1>
 
       <form class="ajax" method="post" action="./ajax.php">
           <input type="hidden" name="act" value="logout">
           <div class="form-actions">
-              <button class="btn btn-large btn-primary" type="submit">Выход</button>
+              <button class="btn btn-large btn-primary" type="submit">Вихід</button>
           </div>
       </form>
 
