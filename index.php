@@ -24,7 +24,7 @@ require_once 'classes/Auth.class.php';
 
       <?php if (Auth\User::isAuthorized()): ?>
     
-      <h1>Добрий день!</h1>
+      <h1>Добрий день! Ласкаво просимо:)</h1>
 
       <form class="ajax" method="post" action="./ajax.php">
           <input type="hidden" name="act" value="logout">
